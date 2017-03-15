@@ -167,6 +167,17 @@ you would like to use math equation.
 
 See the [example](http://zhongpu.info/2016/05/06/Mathjax%20and%20Hexo/).
 
+#### Donate
+Add
+```YAML
+donate:
+  enabled: true             # If true, allowed donate; if false, disable donate
+  message: 此文有用?求鼓励! # donate message
+  qrcode: http://7xlune.com1.z0.glb.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE.png  # Your account QR code.
+```
+in theme's `_config.yml`, here is an example: [http://blog.shanruifeng.win]()
+
+
 #### Languages
 Seven languages are available for this theme currently: Simplified Chinese (zh-CN), Traditional Chinese (zh-TW), English (en), French (fr-FR), German (de-DE), Korean (ko) and Spanish (es-ES). Contributions of translating to other languages will be highly appreciated.
 
